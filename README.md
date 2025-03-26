@@ -138,18 +138,9 @@ User --> Web Interface --> API Gateway --> Lambda --> Lex (NLP) + DynamoDB (Logg
 
 #### 5.1.1 Dataset (ERD Overview)
 ```
-Entity: User
-- userId (PK)
-- timestamp
 
-Entity: Chat
-- message
-- intent
-- response
-
-Relationships:
-User 1 ---- * Chat
 ```
+![image](https://github.com/user-attachments/assets/838ddc86-4a6d-4c09-bc66-3d6fe2d3e930)
 
 ---
 
