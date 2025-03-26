@@ -89,8 +89,8 @@ The chatbot architecture is serverless, with Amazon Lex handling NLP, AWS Lambda
 
 
 ```
+![image](https://github.com/user-attachments/assets/bc6442de-2190-4bff-9472-222a6999e9e7)
 
-https://github.com/zahkah/CSTP-2110---Intro-to-Cloud-Computing/issues/1#issue-2949861058
 
 #### 🔄 Sequence Diagram (Text UML)
 ```
@@ -107,6 +107,10 @@ Web Frontend -> User: Display reply
 ```
 User --> Web Interface --> API Gateway --> Lambda --> Lex (NLP) + DynamoDB (Logging)
 ```
+![image](https://github.com/user-attachments/assets/2eea9747-887a-4590-92b1-43de0b3f73f7)
+
+
+
 
 #### 🚀 Deployment Diagram
 ```
