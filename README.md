@@ -85,6 +85,9 @@ The chatbot architecture is serverless, with Amazon Lex handling NLP, AWS Lambda
                                                        |
                                                        v
                                                  [DynamoDB Storage]
+
+![image](https://github.com/user-attachments/assets/4a131a9c-61a3-46bd-be69-41c8fe7d41fe)
+
 ```
 
 #### 🔄 Sequence Diagram (Text UML)
